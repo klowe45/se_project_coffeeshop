@@ -2,9 +2,11 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 0.6;
   }
+
   100% {
     transform: scale(1.2);
     opacity: 0;
@@ -43,7 +45,7 @@
 
 .about__paragraph {
   color: white;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", Arial, "Times New Roman";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -61,7 +63,7 @@
   position: absolute;
   left: -129px;
   top: -152px;
-  background-color: blue;
+  background-color: #2f80ed;
   height: 426px;
   width: 426px;
   border-radius: 50%;
@@ -69,14 +71,5 @@
 }
 
 .about__circle_animation_blurred {
-  display: block;
-  position: absolute;
-  left: -129px;
-  top: -152px;
-  background-color: blue;
-  height: 426px;
-  width: 426px;
-  border-radius: 50%;
-  opacity: 1;
-  animation: pulsate 1.3s infinite ease-in-out;
+  animation: pulsate 1.3s ease-in-out infinite;
 }

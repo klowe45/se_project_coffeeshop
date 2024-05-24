@@ -109,6 +109,7 @@
                 id="input-name"
                 type="text"
                 placeholder="Name Surname"
+                required
               />
               <label class="form__label" for="input-guest"
                 >Number of guest *</label
@@ -120,12 +121,14 @@
                 min="1"
                 max="8"
                 placeholder="1-8"
+                required
               />
               <label class="form__label" for="input-time"> Date & time *</label>
               <input
                 class="form__input"
                 type="datetime-local"
                 id="input-time"
+                required
               />
               <label class="form__label" for="input-email">Your email *</label>
               <input
@@ -133,6 +136,7 @@
                 id="input-email"
                 type="email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <button class="form__button" type="button">Book a table</button>
@@ -232,12 +236,12 @@
             </li>
           </ul>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <div class="footer__logo">
+          <div>
             <img
               src="./images/logo_coffeeshop_light.svg"
               alt="TripleTen white Logo"
