@@ -27,6 +27,7 @@
 .nav__link {
   text-decoration: none;
   transition: 0.5s;
+  color: inherit;
 }
 
 .nav__link:hover {
